@@ -1,0 +1,62 @@
+.hero-text {
+    font-family: 'Inter';
+font-weight: 400;
+font-size: 20px;
+line-height: 1.2; 
+color: #FFFFFF;
+}
+
+.hero-button {
+    font-family: 'HeadlandOne';
+font-weight: 400;
+font-size: 24px;
+line-height: 1.25; 
+text-align: center;
+color: #26C7EA;
+}
+
+.phrase {
+    font-family: 'Inter';
+font-weight: 400;
+font-size: 36px;
+line-height: 1.22; 
+text-align: justify;
+color: #0A3853;
+}
+
+.phrase-subtitle {
+    font-family: 'Inter';
+font-weight: 400;
+font-size: 24px;
+line-height: 1.2083; 
+text-align: justify;
+color: #000000;
+}
+
+.trailer-button {
+    font-family: 'HeadlandOne';
+font-weight: 400;
+font-size: 24px;
+line-height: 1.25;
+text-align: justify;
+color: #26C7EA;
+}
+
+.language-title {
+    font-family: 'HeadlandOne';
+font-weight: 400;
+font-size: 32px;
+line-height: 1.25; 
+text-align: justify;
+color: #1F2426;
+}
+
+.language-subtitle {
+    font-family: 'HeadlandOne';
+font-weight: 400;
+font-size: 24px;
+line-height: 1; 
+text-align: justify;
+color: #000000;
+}
+

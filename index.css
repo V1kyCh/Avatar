@@ -1,9 +1,99 @@
-.hero-text {
+.container {
+    width: 1032px;
+padding-left: 15px;
+padding-right: 15px;
+outline: solid red;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+                           /* HEADER */
+
+.header {
+    background-image: url(./img/header-hero-bc-img.jpg);
+background-repeat: no-repeat;
+}
+
+.header-container {
+    display: flex;
+}
+
+.header-logo {
+    width: 244px;
+height: 96px;
+}
+
+.header-language-eng {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: justify;
+
+color: #FFFFFF;
+
+margin-left: 642.1px;
+}
+
+.header-language-uk {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+text-align: justify;
+
+color: #FFFFFF;
+
+margin-left: 56px;
+}
+
+
+
+                            /* MAIN */
+         /* hero-section */
+
+.hero {
+    background-image: url(./img/header-hero-bc-img.jpg);
+background-repeat: no-repeat;
+padding-bottom: 19px;
+}
+
+.container-hero-text-hero-item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-hero-text {
+    margin-top: 167px;
+}
+
+.hero-text-navi {
     font-family: 'Inter';
 font-weight: 400;
 font-size: 20px;
 line-height: 1.2; 
 color: #FFFFFF;
+}
+
+.hero-text-uk {
+    font-family: 'Inter';
+font-weight: 400;
+font-size: 20px;
+line-height: 1.2; 
+color: #FFFFFF;
+
+margin-top: 44px;
+}
+
+.hero-item {
+    margin-top: 100px;
+}
+
+.hero-list2, .hero-list3 {
+    margin-top: 20px;
 }
 
 .hero-button {
@@ -13,24 +103,92 @@ font-size: 24px;
 line-height: 1.25; 
 text-align: center;
 color: #26C7EA;
+
+width: 260px;
+height: 80px;
+background: #0B0E66;
+border: 3px solid #26C7EA;
+border-radius: 45px 0px;
+
+margin-top: 38px;
 }
 
-.phrase {
+           /* all phrases */
+
+.phrase-text {
     font-family: 'Inter';
 font-weight: 400;
 font-size: 36px;
-line-height: 1.22; 
+line-height: 1.22222222;
 text-align: justify;
 color: #0A3853;
+text-align: center;
 }
 
-.phrase-subtitle {
+.phrase-name {
     font-family: 'Inter';
 font-weight: 400;
 font-size: 24px;
 line-height: 1.2083; 
-text-align: justify;
 color: #000000;
+text-align: center;
+
+margin-top: 16px;
+margin-bottom: 8px;
+}
+
+.phrase-image {
+    display: block;
+margin-left: auto;
+margin-right: auto;
+width: 400px;
+height: 120px;
+}
+
+      /* first-phrase */
+
+.first-phrase {
+    padding-top: 78px;
+    padding-bottom: 30px;
+}
+
+.phrase-first-text {
+    font-family: 'Inter';
+font-weight: 400;
+font-size: 36px;
+line-height: 1.22222222; 
+color: #0A3853;
+text-align: center;
+}
+
+.first-phrase-second-text {
+    font-family: 'Inter';
+font-weight: 400;
+font-size: 36px;
+line-height: 1.22222222; 
+color: #0A3853;
+text-align: center;
+
+margin-top: 4px;
+}
+
+.phrase-image {
+    display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+           /* trailer */
+
+.trailer {
+    background-image: url(./img/trailer-bc-img.png);
+    background-repeat: no-repeat;
+    box-shadow: -11px 18px 8px -5px rgba(0, 0, 0, 0.25);
+    padding-top: 310px;
+    padding-bottom: 310px;
+    text-align: center;
 }
 
 .trailer-button {
@@ -40,6 +198,42 @@ font-size: 24px;
 line-height: 1.25;
 text-align: justify;
 color: #26C7EA;
+background: #0B0E66;
+border: 3px solid #26C7EA;
+border-radius: 45px 0px;
+width: 260px;
+height: 80px;
+
+padding: 25px 20px 25px 19px;
+}
+
+           /* second-phrase */
+
+.second-phrase {
+    padding-top: 53px;
+    padding-bottom: 42px;
+}
+
+.second-phrase-first-text {
+    margin-top: 16px;
+    margin-bottom: 8px;   
+}
+
+        /* language */
+
+.language {
+    background-image: url(./img/Language-img/bc-img.jpg);
+    padding-top: 33px;
+    padding-bottom: 40px;
+}
+
+.language-item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.language-list {
+    background-color: #fff;
 }
 
 .language-title {
@@ -47,8 +241,8 @@ color: #26C7EA;
 font-weight: 400;
 font-size: 32px;
 line-height: 1.25; 
-text-align: justify;
 color: #1F2426;
+text-align: center;
 }
 
 .language-subtitle {
@@ -59,4 +253,12 @@ line-height: 1;
 text-align: justify;
 color: #000000;
 }
+
+
+
+
+
+
+
+
 

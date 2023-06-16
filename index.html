@@ -9,71 +9,97 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Headland+One&family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <header>
-        <img class="header-logo" src="./img/header1.jpg" alt="логотип аватар">
-
+    <header class="header">
+        <div class="container header-container">
+            <img class="header-logo" src="./img/hero-logo-img.png" alt="логотип аватар">
+            <p class="header-language-eng">ENG</p>
+            <p class="header-language-uk">UK</p>
+        </div>
     </header>
-    <main>
+    <main class="main">
         <!-- секція герой -->
         <section class="hero">
-            <ul class="hero-item">
-                <li class="hero-list">
-                    <img class="hero-list-image" src="./img/vector-img/vector1.png" alt="значок інстаграм">
-                </li>
-                <li class="hero-list">
-                    <img class="hero-list-image" src="./img/vector-img/vector2.png" alt="значок твітера">
-                </li>
-                <li class="hero-list">
-                    <img class="hero-list-image" src="./img/vector-img/vector3.png" alt="значок ютуба">
-                </li>
-            </ul>
-            <p class="hero-text">
-                Oe perlltxe hu tsamsiyu!
-                Ngari hu Eywa salew tirea, 
-                tokx 'ì'awn slu Na'viyä hapxì.
-                Säwem nìayoeng!
-                
-                Хоробрий воїне, звертаюсь до тебе!
-                Твій дух йде з Ейвою, 
-                твоє тіло залишається, 
-                щоб стати частиною Народу.
-                Борись разом з нами!
-            </p>
-            <button class="hero-button" type="button">
-                Приєднатися до клану
-            </button>
+            <div class="container container-hero-section">
+                <div class="container-hero-text-hero-item">
+                    <div class="container-hero-text">
+                        <p class="hero-text-navi">
+                            Oe perlltxe hu tsamsiyu! <br>
+                            Ngari hu Eywa salew tirea, <br>
+                            tokx 'ì'awn slu Na'viyä hapxì. <br>
+                            Säwem nìayoeng! <br>
+                        </p>
+                        <p class="hero-text-uk">
+                            Хоробрий воїне, звертаюсь до тебе! <br>
+                            Твій дух йде з Ейвою, <br>
+                            твоє тіло залишається, <br>
+                            щоб стати частиною Народу. <br>
+                            Борись разом з нами! <br>
+                        </p>
+                    </div>
+                    <div class="container-hero-item">
+                        <ul class="hero-item">
+                            <li class="hero-list">
+                                <img class="hero-list-image" src="./img/vector-img/vector1.png" alt="значок інстаграм">
+                            </li>
+                            <li class="hero-list hero-list2">
+                                <img class="hero-list-image" src="./img/vector-img/vector2.png" alt="значок твітера">
+                            </li>
+                            <li class="hero-list hero-list3">
+                                <img class="hero-list-image" src="./img/vector-img/vector3.png" alt="значок ютуба">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="hero-button" type="button">
+                    Приєднатися до <br> клану
+                </button>
+            </div>
         </section>
         <!-- first-phrase -->
         <section class="first-phrase">
-            <h2 class="phrase">
-                “БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.” 
-            </h2>
-            <h3 class="phrase-subtitle">
-                Джейк Саллі
-            </h3>
-            <img class="first-phrase-image" src="./img/phrase.jpg" alt="малюночок">
+            <div class="container">
+                <h2 class="phrase-text first-phrase-first-text">
+                    “БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ 
+                </h2>
+                <h2 class="phrase-text first-phrase-second-text">
+                    ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”
+                </h2>
+                <h3 class="phrase-name first-phrase-name">
+                    Джейк Саллі
+                </h3>
+                <img class="phrase-image first-phrase-image" src="./img/phrase.jpg" alt="малюночок">
+            </div>
         </section>
         <!-- trailer -->
         <section class="trailer">
-            <button class="trailer-button" type="button">
-                Дивитись трейлер
-            </button>
+            <div class="container">
+                <button class="trailer-button" type="button">
+                    Дивитись трейлер
+                </button>
+            </div>
         </section>
         <!-- second-phrase -->
         <section class="second-phrase">
-            <h2 class="phrase">
-                “ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”
-            </h2>
-            <h3 class="phrase-subtitle">
-                Джейк Саллі
-            </h3>
-            <img class="second-phrase-image" src="./img/phrase.jpg" alt="малюночок">
+            <div class="container">
+                <h2 class="phrase-text second-phrase-first-text">
+                    “ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ
+                </h2>
+                <h2 class="phrase-text second-phrase-second-text">
+                    ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”
+                </h2>
+                <h3 class="phrase-name second-phrase-subtitle">
+                    Джейк Саллі
+                </h3>
+                <img class="phrase-image second-phrase-image" src="./img/phrase.jpg" alt="малюночок">
+            </div>
         </section>
         <!-- language -->
         <section class="language">
+            <div class="container">
             <h2 class="language-title">
                 Вчимо мову На’ві
             </h2>
@@ -109,19 +135,22 @@
                     <p class="language-subtitle">Nong oet!</p>
                 </li>
             </ul>
+            </div>
         </section>
         <!-- third-phrase -->
         <section class="third-phrase">
-            <h2 class="phrase">
+            <div class="container">
+            <h2 class="phrase-text third-phrase-text">
                 “НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ, ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ БАЛАНС.”
             </h2>
-            <h3 class="phrase-subtitle">
+            <h3 class="phrase-name third-phrase-subtitle">
                 Нейтірі
             </h3>
-            <img class="third-phrase-image" src="./img/phrase.jpg" alt="малюночок">
+            <img class="phrase-image third-phrase-image" src="./img/phrase.jpg" alt="малюночок">
+            </div>
         </section>
         <!-- footer -->
-        <footer>
+        <footer class="footer">
             <img class="footer-img" src="./img/footer-img.jpg" alt="малюночок">
         </footer>
     </main>

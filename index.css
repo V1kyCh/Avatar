@@ -8,11 +8,17 @@ margin-right: auto;
 }
 
 
+
+
+
+
                            /* HEADER */
 
 .header {
-    background-image: url(./img/header-hero-bc-img.jpg);
+    background-position: 50% 0%;
+    background-image: url(./img/header-hero-bc-img.jpg); 
 background-repeat: no-repeat;
+/* background-position: center; */
 }
 
 .header-container {
@@ -56,8 +62,10 @@ margin-left: 56px;
          /* hero-section */
 
 .hero {
-    background-image: url(./img/header-hero-bc-img.jpg);
+    background-position: 50% 70%;
+    background-image: url(./img/header-hero-bc-img.jpg); 
 background-repeat: no-repeat;
+/* background-position: center; */
 padding-bottom: 19px;
 }
 
@@ -185,6 +193,7 @@ margin-right: auto;
 .trailer {
     background-image: url(./img/trailer-bc-img.png);
     background-repeat: no-repeat;
+    background-position: center;
     box-shadow: -11px 18px 8px -5px rgba(0, 0, 0, 0.25);
     padding-top: 310px;
     padding-bottom: 310px;
